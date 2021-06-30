@@ -3,47 +3,43 @@ import Image from 'next/image'
 
 import LowResImageSrc from "../utils/low-res-image";
 
-import GithubIcon from 'react-icons/lib/fa/github'
-import AngelListIcon from 'react-icons/lib/fa/angellist'
-import TwitterIcon from 'react-icons/lib/fa/twitter'
-import LinkedInIcon from 'react-icons/lib/fa/linkedin'
-import FacebookIcon from 'react-icons/lib/fa/facebook'
-import InstagramIcon from 'react-icons/lib/fa/instagram'
+import { FaGithub, FaAngellist,FaTwitter,FaLinkedin,FaFacebook,FaInstagram} from "react-icons/fa";
+
 
 const social = [
   {
     url: 'https://github.com/elwood-technology',
-    icon: <GithubIcon />,
+    icon: <FaGithub />,
     name: 'GitHub',
     eventArgs: ['Footer', 'github']
   },
   {
     url: 'https://twitter.com/hello_elwood',
-    icon: <TwitterIcon />,
+    icon: <FaTwitter />,
     name: 'Twitter',
     eventArgs: ['Footer', 'twitter']
   },
   {
     url: 'https://www.facebook.com/elwood.technology',
-    icon: <FacebookIcon />,
+    icon: <FaFacebook />,
     name: 'Facebook',
     eventArgs: ['Footer', 'facebook']
   },
   {
     url: 'https://angel.co/elwood-technology',
-    icon: <AngelListIcon />,
+    icon: <FaAngellist />,
     name: 'AngelList',
     eventArgs: ['Footer', 'angellist']
   },
   {
     url: 'https://www.instagram.com/hello_elwood',
-    icon: <InstagramIcon />,
+    icon: <FaInstagram />,
     name: 'Instagram',
     eventArgs: ['Footer', 'instagram']
   },
   {
     url: 'https://www.linkedin.com/company/elwood-technology',
-    icon: <LinkedInIcon />,
+    icon: <FaLinkedin />,
     name: 'LinkedIn',
     eventArgs: ['Footer', 'linkedIn']
   }
@@ -59,11 +55,6 @@ export default function Home() {
         <span className="c-home-header-img" />
         <div className="c-home-main">
           <h1>
-            <div
-              className="c-home-logo"
-            >
-              <img src="https://elwood.technology/icon.png" alt="Pizza" />
-            </div>
             Elwood Technology
           </h1>
           <h2>Software &amp; Digital Product Development Consultancy</h2>
