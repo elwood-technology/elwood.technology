@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://elwood.technology/">
-    <img alt="Elwood Technology, LLC" src="https://raw.githubusercontent.com/elwoodtechnology/elwood.technology/master/static/icon.png">
+    <img alt="Elwood Technology, LLC" src="https://raw.githubusercontent.com/elwoodtechnology/elwood.technology/master/public/icon.png">
   </a>
 </p>
 
