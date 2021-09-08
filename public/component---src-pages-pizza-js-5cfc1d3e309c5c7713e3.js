@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{plDs:function(n,e,a){"use strict";a.r(e);var t=a("q1tI"),o=a.n(t),c=a("+ZDr"),l=a.n(c);e.default=function(){return o.a.createElement(l.a,{to:"/",className:"pizza"},o.a.createElement("span",null,"Elwood Technology, LLC"))}}}]);
+//# sourceMappingURL=component---src-pages-pizza-js-5cfc1d3e309c5c7713e3.js.map
