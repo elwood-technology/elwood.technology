@@ -73,7 +73,7 @@ export default function Home() {
       <footer className="c-footer">
         <ul className="list-unstyled">
           <li>&copy; {new Date().getFullYear()}, Elwood Technology, LLC</li>
-          <li>Box 5661, Santa Monica, CA 90409</li>
+          <li>PO Box 1649, Venice, CA 90294</li>
         </ul>
         <div>
           {social.map(({ url, icon, name, eventArgs }) => (
