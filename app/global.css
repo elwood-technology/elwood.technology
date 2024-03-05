@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-arr-5: 202 20 92;
+    --color-arr-4: 212 51 31;
+    --color-arr-3: 204 39 55;
+    --color-arr-2: 207 74 79;
+    --color-arr-1: 80 1 54;
+
+    --color-muted: 80 1 54;
+  }
+
+  html,
+  body {
+    @apply overflow-hidden text-[#333];
+  }
+}
