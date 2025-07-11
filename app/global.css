@@ -7,6 +7,20 @@
   --color-array-2: hsl(207 74 79);
   --color-array-1: hsl(80 1 54);
   --color-muted: hsl(80 1 54);
+
+  --animate-wave: wave 20s ease-in-out infinite;
+  
+    @keyframes wave {
+  
+      0%,
+      100% {
+        transform: scale(1);
+      }
+  
+      50% {
+        transform: scale(1.3);
+      }
+    }
 }
 
 @layer base {

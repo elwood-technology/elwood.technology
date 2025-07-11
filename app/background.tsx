@@ -22,7 +22,7 @@ export function Background() {
         src={bg}
         width={2000}
         height={1354}
-        className={`w-full h-full absolute top-0 left-0 object-cover origin-bottom opacity-75`}
+        className={`w-full h-full absolute top-0 left-0 object-cover origin-bottom opacity-75 animate-wave`}
         alt="Elwood Technology, LLC | Software Development & Consulting | Venice, CA"
       />
 

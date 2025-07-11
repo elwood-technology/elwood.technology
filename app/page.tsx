@@ -54,7 +54,7 @@ export default function Page() {
       <main className="w-screen h-screen flex flex-col">
         <header className="md:h-[70vh] flex items-center justify-center relative">
           <Background />
-          <div className="w-full max-w-4xl mx-auto z-10 p-12 md:p-0">
+          <div className="w-full max-w-5xl mx-auto z-10 p-3">
             <h1 className="text-5xl font-extrabold">Elwood Technology</h1>
             <h2 className="text-3xl md:text-7xl font-light mt-6 animate-fadeIn">
               Software &amp; Digital Product Development Consultancy
