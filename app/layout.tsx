@@ -11,15 +11,14 @@ const inter = Open_Sans({
 
 export const metadata: Metadata = {
   title:
-    'Elwood Technology | Software Development &amp; Consulting | hello@elwood.technology',
+    'Elwood Technology | Software Development and Consulting | hello@elwood.technology',
   description:
-    'Santa Monica, California Software Development &amp;amp; Consulting',
+    'Santa Monica, California Software Development and Consulting. Specializing in TypeScript, JavaScript, Node.js, Deno, React, Next.js, PostgreSQL and Supabase',
   keywords:
-    'software, development, dev shop, consulting, node, ios, android, java, javascript',
+    'software, development, dev shop, consulting, node, ios, android, java, javascript, santa monica, venice, los angeles, california, typescript, react, nextjs, tailwind, redux, tanstack, supabase, postgresql, sql, deno',
   openGraph: {
-    title: 'Elwood Technology | Software Development &amp;amp; Consulting',
-    description:
-      'Santa Monica, California Software Development &amp;amp; Consulting',
+    title: 'Elwood Technology | Software Development and Consulting',
+    description: 'Santa Monica, California Software Development and Consulting',
     type: 'website',
   },
   applicationName: 'Elwood Technology',
@@ -36,7 +35,7 @@ const ld = {
   '@context': 'http://schema.org',
   '@type': 'Organization',
   url: 'https://elwood.technology',
-  name: 'Elwood Technology, LLC | Software Development &amp; Consulting',
+  name: 'Elwood Technology, LLC | Software Development and Consulting',
   logo: 'https://elwood.technology/icon.png',
   contactPoint: {
     '@type': 'ContactPoint',
